@@ -31,4 +31,4 @@ class ElectricCar(Car):
         # 初始化父类的属性
         super().__init__(make, model, year)
         # 将实例用作属性
-        self.battery = Battery()
+        self.battery = Battery() 
